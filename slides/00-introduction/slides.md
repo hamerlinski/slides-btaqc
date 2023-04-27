@@ -60,8 +60,8 @@ I'm a DevOps engineer passionate about cybersecurity and cryptography.
 
 Pronouns: he/him/his.
 
-[My GitHub](https://github.com/hamerlinski) |
-[My LinkedIn](https://www.linkedin.com/in/hamerlinski)
+My GitHub <br>[https://github.com/hamerlinski](https://github.com/hamerlinski)<br><br>
+My LinkedIn <br>[https://www.linkedin.com/in/hamerlinski](https://www.linkedin.com/in/hamerlinski)
 
 ---
 layout: statement
@@ -82,7 +82,6 @@ As part of the course, students will learn about blockchain technology, the conc
 
 # Subject plan
 ## Blockchain Technology And Quantum Computation
-**Card subject to change**
 Week 1:
 - Introduction to the course and overview of the topics to be covered
 - Definition and characteristics of blockchain technology
@@ -90,7 +89,7 @@ Week 1:
 - Types of blockchains: public, private, and consortium
 - Examples of blockchain-based applications
 <!-- <page-number/> -->
-
+*Card subject to change*
 ---
 hideInToc: true
 ---
@@ -104,6 +103,7 @@ Week 2:
 - Hash functions and digital signatures
 - Secure multi-party computation
 <!-- <page-number/> -->
+*Card subject to change*
 
 ---
 hideInToc: true
@@ -120,6 +120,7 @@ Week 3:
 - Economic and legal aspects of cryptocurrencies
 - Quantum attacks on blockchain technology
 <!-- <page-number/> -->
+*Card subject to change*
 
 ---
 hideInToc: true
@@ -133,6 +134,7 @@ Week 4:
 - Limitations of classical cryptography and the need for quantum cryptography
 - Quantum algorithms, including Shor's algorithm and Grover's algorithm
 <!-- <page-number/> -->
+*Card subject to change*
 
 ---
 hideInToc: true
@@ -148,6 +150,7 @@ Week 5:
 - Practical implementation of quantum cryptography
 - Quantum-resistant blockchain algorithms and their implementation
 <!-- <page-number/> -->
+*Card subject to change*
 
 ---
 hideInToc: true
@@ -159,6 +162,7 @@ Week 6:
 - Students will present their final projects, which should demonstrate their understanding and application of blockchain technology and quantum computations.
 - The presentations will be evaluated based on the quality of the project, the demonstration of knowledge and skills, and the ability to answer questions and engage in discussion
 <!-- <page-number/> -->
+*Card subject to change*
 
 ---
 layout: statement
@@ -210,6 +214,7 @@ Each subsequent one must be made up.
 **Objective:**
 The objective of this project is to implement a basic blockchain structure that can be used to store and verify transactions. The blockchain should include the necessary components such as blocks, transactions, and cryptographic mechanisms to ensure data integrity and security.
 
+**Projects can be done alone or in groups of 2.**
 ---
 hideInToc: true
 ---
@@ -217,9 +222,9 @@ hideInToc: true
 # Project requirements
 ## Blockchain Technology And Quantum Computation
 **Requirements:**
-- The blockchain should be implemented using a programming language of your choice, such as Python, Java, Kotlin, Go, Rust, C or C++.
+- The blockchain should be implemented using a programming language of your choice - no restrictions.
 - The blockchain should support the addition of new blocks containing transaction data, which should be stored securely.
-- The blockchain should use cryptographic mechanisms such as hashing and digital signatures to ensure the integrity and security of the data.
+- The blockchain should use cryptographic mechanisms such as hashing and digital signatures to ensure the integrity and security of the data. Cryptographic mechanisms such as hashing can be achieved with external libraries like OpenSSL.
 - The blockchain should support consensus mechanisms such as proof-of-work or proof-of-stake to ensure the validity of the blocks.
 
 
@@ -264,6 +269,8 @@ The project will be evaluated based on the following criteria:
 - Security features and measures to prevent unauthorized access.
 - Performance and scalability of the blockchain implementation.
 - Quality and clarity of the report and demonstration.
+
+Project will be presented on the last meeting.
 
 ---
 
@@ -310,7 +317,7 @@ hideInToc: true
 # Tasks
 ## Blockchain Technology And Quantum Computation
 1.1 Create GitHub account using following guide: [Create a GitHub account to use with Visual Studio](https://learn.microsoft.com/en-us/visualstudio/version-control/git-create-github-account?view=vs-2022)<br>
-1.2 Create public repository `put-blockchain-implementation` (one per team)
+1.2 Create **public** repository `put-blockchain-implementation` (one per team)
 
 ---
 hideInToc: true

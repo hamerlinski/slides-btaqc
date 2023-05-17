@@ -74,7 +74,7 @@ layout: statement
 
 # Blockchain Mechanisms
 ## Proof-of-Stake
-**Proof-of-Stake** (PoS): Proof-of-Stake is another type of consensus algorithm used in some cryptocurrencies, such as Ethereum (in its upcoming Ethereum 2.0 upgrade). In a PoS system, the creator of a new block is chosen in a deterministic way, depending on the participant's stake, or ownership of the cryptocurrency. Participants are randomly selected to validate blocks, and the probability of being chosen is proportional to the amount of currency the participant holds. PoS systems are generally considered to be more energy-efficient than PoW systems, as they don't require miners to perform complex calculations.
+**Proof-of-Stake** (PoS): Proof-of-Stake is another type of consensus algorithm used in some cryptocurrencies, such as Ethereum. In a PoS system, the creator of a new block is chosen in a deterministic way, depending on the participant's stake, or ownership of the cryptocurrency. Participants are randomly selected to validate blocks, and the probability of being chosen is proportional to the amount of currency the participant holds. PoS systems are generally considered to be more energy-efficient than PoW systems, as they don't require miners to perform complex calculations.
 
 ---
 

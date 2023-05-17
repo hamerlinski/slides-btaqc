@@ -1,0 +1,40 @@
+Block {  // Define a Block structure to store block data
+  index: int             // The index of the block in the blockchain
+  timestamp: int         // The timestamp of the block creation
+  data: string           // The data stored in the block
+  previous_hash: string  // The hash of the previous block
+  hash: string           // The hash of the current block
+  nonce: int             // A nonce value used in mining
+}
+Blockchain {  // Define a Blockchain structure to store the blocks
+  chain: array of Block    // An array to store the blocks
+  difficulty: int          // The difficulty of the proof-of-work problem
+}
+Block.calculateHash() {  // Function to calculate the hash of a block
+  return hash(index + timestamp + data + previous_hash + nonce)
+}
+Blockchain.addBlock(data) {  // Function to add a new block to the blockchain
+  if chain is empty:  // Create the genesis block
+    block = Block(0, currentTimestamp(), data, "0")
+  else:  // Create a new block and mine it
+    prev_block = chain[-1]
+    block = Block(prev_block.index + 1, currentTimestamp(), data, prev_block.hash)
+    block.mineBlock(difficulty)
+  chain.push(block)  // Add the block to the chain
+}
+Block.mineBlock(difficulty) {  // Function to mine a block
+  target = "0" * difficulty
+  while hash.substring(0, difficulty) != target:
+    nonce++
+    hash = calculateHash()
+}
+Blockchain.isValid() {  // Function to check the validity of the blockchain
+  for i in 1 to length(chain)-1:
+    block = chain[i]
+    prev_block = chain[i-1]
+    if block.hash != block.calculateHash():    // Check if the hash of the block is correct
+      return False
+    if block.previous_hash != prev_block.hash:  // Check if the block points to the correct previous block
+      return False
+  return True  // All blocks are valid
+}

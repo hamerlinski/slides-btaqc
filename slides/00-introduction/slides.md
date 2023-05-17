@@ -27,7 +27,6 @@ fonts:
   sans: Canela Text
   local: Canela Text
 layout: fact
-hideInToc: true
 ---
 
 # Poznan University of Technology
@@ -39,12 +38,17 @@ Jakub Piotr Hamerliński
 
 ## Blockchain Technology And Quantum Computation
 ## Introduction - Agenda
-<Toc />
-<!-- <page-number/> -->
+1. About me
+2. Subject overview
+3. Subject plan
+4. Course completion rules
+5. Project requirements
+6. Sources
+7. Contact and Q&A
+8. Tasks
 
 ---
 layout: statement
-hideInToc: true
 ---
 
 # About me
@@ -65,18 +69,15 @@ My LinkedIn <br>[https://www.linkedin.com/in/hamerlinski](https://www.linkedin.c
 
 ---
 layout: statement
-hideInToc: true
 ---
 
 # Subject overview
-<!-- <page-number/> -->
 
 ---
 
 # Subject overview
 ## Blockchain Technology And Quantum Computation
 As part of the course, students will learn about blockchain technology, the concept of a decentralized database, cryptocurrencies - both technical and economic-legal aspects. They will learn about applications of blockchain technology. The second part of the lectures and exercises will cover quantum computing, theoretical foundations, the threats of quantum computers and post-quantum algorithms.
-<!-- <page-number/> -->
 
 ---
 
@@ -88,10 +89,9 @@ Week 1:
 - Cryptography fundamentals: encryption, decryption, hash functions, digital signatures
 - Types of blockchains: public, private, and consortium
 - Examples of blockchain-based applications
-<!-- <page-number/> -->
+
 *Card subject to change*
----
-hideInToc: true
+
 ---
 
 # Subject plan
@@ -100,13 +100,11 @@ Week 2:
 - Cryptographic mechanisms used in blockchain technology: proof-of-work, proof-of-stake, Byzantine fault tolerance
 - Smart contracts and their role in blockchain-based applications
 - Designing a blockchain structure for a specific application
-- Hash functions and digital signatures
+- Hash functions and digital signatures in blockchain technology
 - Secure multi-party computation
-<!-- <page-number/> -->
+
 *Card subject to change*
 
----
-hideInToc: true
 ---
 
 # Subject plan
@@ -118,12 +116,9 @@ Week 3:
 - Spam and phishing attacks
 - Cryptocurrency fundamentals: Bitcoin, Ethereum, Litecoin
 - Economic and legal aspects of cryptocurrencies
-- Quantum attacks on blockchain technology
-<!-- <page-number/> -->
+
 *Card subject to change*
 
----
-hideInToc: true
 ---
 
 # Subject plan
@@ -133,11 +128,10 @@ Week 4:
 - Theoretical foundations of quantum cryptography: BB84 protocol, E91 protocol
 - Limitations of classical cryptography and the need for quantum cryptography
 - Quantum algorithms, including Shor's algorithm and Grover's algorithm
-<!-- <page-number/> -->
+- Quantum attacks on blockchain technology
+
 *Card subject to change*
 
----
-hideInToc: true
 ---
 
 # Subject plan
@@ -149,11 +143,9 @@ Week 5:
 - Possibilities of quantum cryptography: quantum key distribution, quantum coin tossing
 - Practical implementation of quantum cryptography
 - Quantum-resistant blockchain algorithms and their implementation
-<!-- <page-number/> -->
+
 *Card subject to change*
 
----
-hideInToc: true
 ---
 
 # Subject plan
@@ -161,16 +153,14 @@ hideInToc: true
 Week 6:
 - Students will present their final projects, which should demonstrate their understanding and application of blockchain technology and quantum computations.
 - The presentations will be evaluated based on the quality of the project, the demonstration of knowledge and skills, and the ability to answer questions and engage in discussion
-<!-- <page-number/> -->
+
 *Card subject to change*
 
 ---
 layout: statement
-hideInToc: true
 ---
 
 # Course completion rules
-<!-- <page-number/> -->
 
 ---
 
@@ -194,10 +184,7 @@ $$
 <br>
 
 Each of the components of the grade must be positive.
-<!-- <page-number/> -->
 
----
-hideInToc: true
 ---
 
 # Course completion rules
@@ -215,8 +202,7 @@ Each subsequent one must be made up.
 The objective of this project is to implement a basic blockchain structure that can be used to store and verify transactions. The blockchain should include the necessary components such as blocks, transactions, and cryptographic mechanisms to ensure data integrity and security.
 
 **Projects can be done alone or in groups of 2.**
----
-hideInToc: true
+
 ---
 
 # Project requirements
@@ -227,9 +213,6 @@ hideInToc: true
 - The blockchain should use cryptographic mechanisms such as hashing and digital signatures to ensure the integrity and security of the data. Cryptographic mechanisms such as hashing can be achieved with external libraries like OpenSSL.
 - The blockchain should support consensus mechanisms such as proof-of-work or proof-of-stake to ensure the validity of the blocks.
 
-
----
-hideInToc: true
 ---
 
 # Project requirements
@@ -239,8 +222,6 @@ hideInToc: true
 06. The blockchain should include basic security features such as authentication and access control to prevent unauthorized access to the blockchain.<br><br>
 07. The blockchain should be tested and evaluated for its performance and security.
 
----
-hideInToc: true
 ---
 
 # Project requirements
@@ -253,8 +234,6 @@ hideInToc: true
 
 **All of above should be comitted to public repository before last meeting.**
 
----
-hideInToc: true
 ---
 
 # Project requirements
@@ -280,12 +259,10 @@ Project will be presented on the last meeting.
 - Ward Beullens, Jan-Piete D'Anvers, Andreas HÅNulsing, Tanja Lange, Lorenz Panny, Cyprien de Saint<br>
 - Guilhem, and Nigel P. Smart. Post-quantum cryptography - current state and quantum mitigation, 2022.<br>
 - [Post-Quantum Cryptography: Current state and quantum mitigation](https://www.enisa.europa.eu/publications/post-quantum-cryptography-current-state-and-quantum-mitigation)
-- My slides (Work in progress): [https://github.com/hamerlinski/slides-btaqc](https://github.com/hamerlinski/slides-btaqc)
-<!-- <page-number/> -->
+- My slides: [https://github.com/hamerlinski/slides-btaqc](https://github.com/hamerlinski/slides-btaqc)
 
 ---
 layout: statement
-hideInToc: true
 ---
 
 # Contact and Q&A
@@ -298,7 +275,6 @@ Please contact me using [jakub.hamerlinski@cs.put.poznan.pl](mailto:jakub.hamerl
 
 ---
 layout: statement
-hideInToc: true
 ---
 
 # Tasks
@@ -311,16 +287,12 @@ hideInToc: true
 2. Fill form.
 
 ---
-hideInToc: true
----
 
 # Tasks
 ## Blockchain Technology And Quantum Computation
 1.1 Create GitHub account using following guide: [Create a GitHub account to use with Visual Studio](https://learn.microsoft.com/en-us/visualstudio/version-control/git-create-github-account?view=vs-2022)<br>
 1.2 Create **public** repository `put-blockchain-implementation` (one per team)
 
----
-hideInToc: true
 ---
 
 # Tasks
@@ -330,10 +302,8 @@ hideInToc: true
 <img src="/qrcode.png" class="m-5 h-70 rounded shadow object-center" />
 </div>
 
-
 ---
 layout: statement
-hideInToc: true
 ---
 
 # Before next classes
@@ -346,24 +316,19 @@ Prepare for next lesson by watching `But how does bitcoin actually work?` by 3Bl
 
 ---
 layout: fact
-hideInToc: true
 ---
 
 # Questions?
 
 ---
 layout: statement
-hideInToc: true
 ---
 
 # Thank you
 Feel free to reach me via [LinkedIn](https://www.linkedin.com/in/hamerlinski/ "Contact me anytime!")
-<!-- <page-number/> -->
 
 ---
 layout: statement
-hideInToc: true
 ---
 
 # *Fin*
-<!-- <page-number/> -->

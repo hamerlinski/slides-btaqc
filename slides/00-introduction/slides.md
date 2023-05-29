@@ -142,7 +142,6 @@ Week 5:
 - Research directions for post-quantum cryptography
 - Possibilities of quantum cryptography: quantum key distribution, quantum coin tossing
 - Practical implementation of quantum cryptography
-- Quantum-resistant blockchain algorithms and their implementation
 
 *Card subject to change*
 

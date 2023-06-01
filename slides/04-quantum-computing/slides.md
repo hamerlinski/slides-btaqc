@@ -95,6 +95,41 @@ layout: statement
 
 # Quantum Computing
 ## Theoretical foundations of quantum cryptography
+
+In quantum cryptography, there are two important bases: the standard basis and the Hadamard basis:
+
+1. Standard Basis (|0⟩, |1⟩):
+   The standard basis consists of two states, often represented as |0⟩ and |1⟩. These states are the fundamental building blocks of classical binary information, where |0⟩ represents the binary value of "0," and |1⟩ represents the binary value of "1."
+
+   In quantum cryptography, these states are used to encode and transmit quantum information. For example, quantum bits or qubits can be prepared in either the state |0⟩ or |1⟩ to represent classical bits. By manipulating and measuring these qubits, cryptographic protocols can be designed to securely transmit information.
+
+---
+
+# Quantum Computing
+## Theoretical foundations of quantum cryptography
+
+2. Hadamard Basis (|+⟩, |−⟩):
+   The Hadamard basis is a different set of quantum states used in quantum cryptography. It consists of two states: |+⟩ and |−⟩. These states are obtained by applying the Hadamard gate to the standard basis states:
+
+   |+⟩ = (|0⟩ + |1⟩)/√2
+
+   |−⟩ = (|0⟩ - |1⟩)/√2
+
+   The Hadamard gate transforms a qubit from the standard basis to the Hadamard basis and vice versa. It is used to create superposition, where a qubit can exist in a state that is a combination of |0⟩ and |1⟩. In the Hadamard basis, |+⟩ and |−⟩ are equally probable states.
+
+   The Hadamard basis is particularly useful in quantum cryptography for certain protocols like quantum key distribution (QKD). By encoding information in the Hadamard basis and performing measurements, cryptographic keys can be generated securely.
+
+---
+
+# Quantum Computing
+## Theoretical foundations of quantum cryptography
+
+To summarize, the standard basis (|0⟩, |1⟩) is the basis of classical binary information, while the Hadamard basis (|+⟩, |−⟩) is a superposition of the standard basis states obtained by applying the Hadamard gate. Both bases have their uses in quantum cryptography, allowing for the secure transmission and manipulation of quantum information.
+
+---
+
+# Quantum Computing
+## Theoretical foundations of quantum cryptography
 BB84 Protocol:
 The BB84 protocol, named after its inventors Charles Bennett and Gilles Brassard in 1984, is one of the earliest and most widely studied quantum cryptographic protocols. It enables two parties, traditionally referred to as Alice (the sender) and Bob (the receiver), to establish a secure shared key over an insecure communication channel.
 
